@@ -62,6 +62,8 @@
   },
   "dependencies": {
     "async": "^3.2.4",
+    "gh-pages": "^4.0.0",
+    "prop-types": "^15.8.1",
     "react-async": "^10.0.1",
     "react-router-dom": "^6.4.1",
     "styled-components": "^5.3.5"
