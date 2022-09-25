@@ -28,7 +28,7 @@ export default Home;
 const Wrapper = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
     font-family: 'Jua', sans-serif;
-    height: auto;
+    background-size: cover;
     width: 100%;
     background-color: #FFE6E6;
 
