@@ -68,6 +68,7 @@ const Title = styled.div`
 `
 
 const Button = styled.div`
+    display: flex;
     font-size: 30pt;
     text-align: center;
     vertical-align: middle;
@@ -88,43 +89,43 @@ const Button = styled.div`
 
     /* 나머지는 빅데스크탑 */
     
-    margin: 150px auto;
-    width: 600px;
-    height: 150px;
+    margin: 100px auto;
+    width: 400px;
+    height: 100px;
 
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-        margin: 100px auto;
-        width: 400px;
-        height: 100px;
+        margin: 75px auto;
+        width: 300px;
+        height: 75px;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-        margin: 80px auto;
-        width: 320px;
-        height: 80px;
-    }
-
-    @media screen and (max-width:899px) {
-    /* 모바일 가로, 타블렛 세로 */
         margin: 60px auto;
         width: 240px;
         height: 60px;
     }
 
+    @media screen and (max-width:899px) {
+    /* 모바일 가로, 타블렛 세로 */
+        margin: 45px auto;
+        width: 180px;
+        height: 45px;
+    }
+
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-        margin: 40px auto;
-        width: 160px;
-        height: 40px;
+        margin: 30px auto;
+        width: 120px;
+        height: 30px;
     }
 `
 
 const StartText = styled.div`
+    display: flex;
     font-size: 24pt;
     text-align: center;
     justify-content: center;
     align-items: center;
-    transform: translate(0%, 75%);
 `

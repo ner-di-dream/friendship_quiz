@@ -77,26 +77,26 @@ const ProgressBar = styled.div`
     transform: translate(0%, 50%);
 
     /* 나머지는 빅데스크탑 */
-    width: 1200px;
-    height: 60px;
+    width: 1000px;
+    height: 50px;
 
     @media screen and (max-width:1799px) {
-        width: 1000px;
+        width: 900px;
         height: 50px;
     }
 
     @media screen and (max-width:1199px) {
-        width: 800px;
+        width: 700px;
         height: 40px;
     }
 
     @media screen and (max-width:899px) {
-        width: 600px;
+        width: 500px;
         height: 30px;
     }
 
     @media screen and (max-width:599px) {
-        width: 400px;
+        width: 300px;
         height: 20px;
     }
 `
@@ -109,26 +109,26 @@ const Highlight = styled.div`
     transition-duration: 0.5s;
 
     /* 나머지는 빅데스크탑 */
-    width: ${(props) => props.width * 1.2}px;
-    height: 60px;
+    width: ${(props) => props.width * 1}px;
+    height: 50px;
 
     @media screen and (max-width:1799px) {
-        width: ${(props) => props.width * 1}px;
+        width: ${(props) => props.width * 0.9}px;
         height: 50px;
     }
 
     @media screen and (max-width:1199px) {
-        width: ${(props) => props.width * 0.8}px;
+        width: ${(props) => props.width * 0.7}px;
         height: 40px;
     }
 
     @media screen and (max-width:899px) {
-        width: ${(props) => props.width * 0.6}px;
+        width: ${(props) => props.width * 0.5}px;
         height: 30px;
     }
 
     @media screen and (max-width:599px) {
-        width: ${(props) => props.width * 0.4}px;
+        width: ${(props) => props.width * 0.3}px;
         height: 20px;
     }
 `
@@ -139,28 +139,28 @@ const QuizNumber = styled.div`
     align-items: center;
 
     /* 나머지는 빅데스크탑 */
-    font-size: 36pt;
+    font-size: 30pt;
     margin-top: 60px;
 
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-        font-size: 30pt;
+        font-size: 25pt;
         margin-top: 50px;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-        font-size: 25pt;
+        font-size: 20pt;
         margin-top: 45px;
     }
 
     @media screen and (max-width:899px) {
-        font-size: 20pt;
+        font-size: 16pt;
         margin-top: 40px;
     }
 
     @media screen and (max-width:599px) {
-        font-size: 16pt;
+        font-size: 12pt;
         margin-top: 36px;
     }
 `
@@ -173,26 +173,26 @@ const Title = styled.div`
     margin-top: 20px;
 
     /* 나머지는 빅데스크탑 */
-    font-size: 30pt;
+    font-size: 27pt;
     
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-        font-size: 27pt;
+        font-size: 24pt;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-        font-size: 24pt;
+        font-size: 21pt;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-        font-size: 21pt;
+        font-size: 18pt;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-        font-size: 18pt;
+        font-size: 15pt;
     }
 `
 
@@ -224,36 +224,36 @@ const Button = styled.div`
     }
 
     /* 나머지는 빅데스크탑 */
-    margin: 60px auto;
-    width: 500px;
-    height: 125px;
-
-    @media screen and (max-width:1799px) {
-    /* 데스크탑 */
     margin: 50px auto;
     width: 400px;
     height: 100px;
+
+    @media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    margin: 40px auto;
+    width: 320px;
+    height: 80px;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-    margin: 40px auto;
-    width: 300px;
-    height: 75px;
+    margin: 30px auto;
+    width: 240px;
+    height: 60px;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-    margin: 30px auto;
-    width: 200px;
-    height: 50px;
+    margin: 20px auto;
+    width: 160px;
+    height: 40px;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    margin: 20px auto;
-    width: 100px;
-    height: 50px;
+    margin: 10px auto;
+    width: 80px;
+    height: 20px;
     }
 `
 
@@ -263,26 +263,26 @@ const AnswerText = styled.div`
     align-items: center;
 
     /* 나머지는 빅데스크탑 */
-    font-size: 28pt;
+    font-size: 24pt;
 
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-    font-size: 24pt;
+    font-size: 21pt;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-    font-size: 21pt;
+    font-size: 18pt;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-    font-size: 18pt;
+    font-size: 15pt;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    font-size: 15pt;
+    font-size: 12pt;
     }
 `
 
