@@ -68,5 +68,5 @@
     "react-router-dom": "^6.4.1",
     "styled-components": "^5.3.5"
   },
-  "homepage": "https://sungwooquiz.netlify.app"
+  "homepage": "."
 }
