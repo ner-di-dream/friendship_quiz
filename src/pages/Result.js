@@ -46,26 +46,26 @@ const ScoreText = styled.div`
     min-height: 60vh;
 
     /* 나머지는 빅데스크탑 */
-    font-size: 288pt;
+    font-size: 240pt;
 
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-    font-size: 216pt;
+    font-size: 200pt;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-    font-size: 144pt;
+    font-size: 160pt;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-    font-size: 96pt;
+    font-size: 144pt;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    font-size: 48pt;
+    font-size: 96pt;
     }
 `
 

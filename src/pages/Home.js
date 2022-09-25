@@ -107,8 +107,15 @@ const Button = styled.div`
         height: 60px;
     }
 
-    @media screen and (max-width:899px) {
-    /* 모바일 가로, 타블렛 세로 */
+    @media screen and (max-width:899px) and (min-height:600px) {
+    /* 타블렛 세로 */
+        margin: 45px auto;
+        width: 180px;
+        height: 45px;
+    }
+
+    @media screen and (max-width:899px) and (max-height:599px) {
+    /* 모바일 가로 */
         margin: 45px auto;
         width: 180px;
         height: 45px;

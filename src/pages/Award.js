@@ -57,22 +57,22 @@ const AwardText = styled.div`
 
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-    font-size: 48pt;
+    font-size: 52pt;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-    font-size: 36pt;
+    font-size: 40pt;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-    font-size: 24pt;
+    font-size: 32pt;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    font-size: 18pt;
+    font-size: 24pt;
     }
 `
 

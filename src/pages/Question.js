@@ -173,26 +173,26 @@ const Title = styled.div`
     margin-top: 20px;
 
     /* 나머지는 빅데스크탑 */
-    font-size: 27pt;
+    font-size: 24pt;
     
     @media screen and (max-width:1799px) {
     /* 데스크탑 */
-        font-size: 24pt;
+        font-size: 21pt;
     }
 
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
-        font-size: 21pt;
+        font-size: 18pt;
     }
 
     @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
-        font-size: 18pt;
+        font-size: 15pt;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-        font-size: 15pt;
+        font-size: 12pt;
     }
 `
 
@@ -238,22 +238,29 @@ const Button = styled.div`
     @media screen and (max-width:1199px) {
     /* 타블렛 가로 */
     margin: 30px auto;
-    width: 240px;
+    width: 320px;
     height: 60px;
     }
 
-    @media screen and (max-width:899px) {
-    /* 모바일 가로, 타블렛 세로 */
-    margin: 20px auto;
-    width: 160px;
-    height: 40px;
+    @media screen and (max-width:899px) and (min-height:600px) {
+    /* 타블렛 세로 */
+    margin: 40px auto;
+    width: 320px;
+    height: 80px;
+    }
+    
+    @media screen and (max-width:899px) and (max-height:599px) {
+    /* 모바일 가로 */
+    margin: 10px auto;
+    width: 300px;
+    height: 30px;
     }
 
     @media screen and (max-width:599px) {
     /* 모바일 세로 */
-    margin: 10px auto;
-    width: 80px;
-    height: 20px;
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
     }
 `
 
