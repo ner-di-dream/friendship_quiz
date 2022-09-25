@@ -209,7 +209,7 @@ const Button = styled.div`
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(27, 0, 255, 0.5);
     border: 5px solid black;
     border-radius: 25px;
 
