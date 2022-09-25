@@ -1,5 +1,5 @@
 {
-  "name": "quiz",
+  "name": "friendship_quiz",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -34,6 +34,7 @@
     "cssnano": "^4.1.11",
     "dotenv": "^8.6.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^1.6.2",
     "npm-run-all": "^4.1.5",
@@ -58,15 +59,14 @@
     "build": "cross-env NODE_ENV=production webpack --mode production --env prod",
     "start": "cross-env NODE_ENV=development webpack serve --mode development --progress",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "async": "^3.2.4",
-    "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "react-async": "^10.0.1",
     "react-router-dom": "^6.4.1",
     "styled-components": "^5.3.5"
   },
-  "homepage": "https://nerdidream.github.io/friendship_quiz"
+  "homepage": "https://ner-di-dream.github.io/friendship_quiz"
 }
