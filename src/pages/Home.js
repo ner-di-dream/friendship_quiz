@@ -28,10 +28,27 @@ export default Home;
 const Wrapper = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
     font-family: 'Jua', sans-serif;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #FFE6E6;
-    
+
+    /* 나머지는 빅데스크탑 */
+
+    @media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    }
+
+    @media screen and (max-width:1199px) {
+    /* 타블렛 가로 */
+    }
+
+    @media screen and (max-width:899px) {
+    /* 모바일 가로, 타블렛 세로 */
+    }
+
+    @media screen and (max-width:599px) {
+    /* 모바일 세로 */
+    }
 `
 
 const Header = styled.div`
