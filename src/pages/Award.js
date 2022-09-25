@@ -47,11 +47,33 @@ const Award = (props) => {
 
 const AwardText = styled.div`
     display: flex;
-    font-size: 64pt;
     text-align: center;
     justify-content: center;
     align-items: center;
     min-height: 20vh;
+
+    /* 나머지는 빅데스크탑 */
+    font-size: 80pt;
+
+    @media screen and (max-width:1799px) {
+    /* 데스크탑 */
+    font-size: 64pt;
+    }
+
+    @media screen and (max-width:1199px) {
+    /* 타블렛 가로 */
+    font-size: 48pt;
+    }
+
+    @media screen and (max-width:899px) {
+    /* 모바일 가로, 타블렛 세로 */
+    font-size: 36pt;
+    }
+
+    @media screen and (max-width:599px) {
+    /* 모바일 세로 */
+    font-size: 24pt;
+    }
 `
 
 export default Award;

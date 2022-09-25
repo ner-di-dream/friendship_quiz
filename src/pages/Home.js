@@ -28,7 +28,7 @@ export default Home;
 const Wrapper = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
     font-family: 'Jua', sans-serif;
-    background-size: cover;
+    height: 100vh;
     width: 100%;
     background-color: #FFE6E6;
 
@@ -73,9 +73,6 @@ const Button = styled.div`
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
-    width: 400px;
-    height: 100px;
     border: 5px solid black;
     border-radius: 25px;
 
@@ -87,6 +84,40 @@ const Button = styled.div`
     :not(:hover) {
         background-color: rgb(27, 0, 255, 0.5);
         transition-duration: 0.5s;
+    }
+
+    /* 나머지는 빅데스크탑 */
+    
+    margin: 150px auto;
+    width: 600px;
+    height: 150px;
+
+    @media screen and (max-width:1799px) {
+    /* 데스크탑 */
+        margin: 100px auto;
+        width: 400px;
+        height: 100px;
+    }
+
+    @media screen and (max-width:1199px) {
+    /* 타블렛 가로 */
+        margin: 80px auto;
+        width: 320px;
+        height: 80px;
+    }
+
+    @media screen and (max-width:899px) {
+    /* 모바일 가로, 타블렛 세로 */
+        margin: 60px auto;
+        width: 240px;
+        height: 60px;
+    }
+
+    @media screen and (max-width:599px) {
+    /* 모바일 세로 */
+        margin: 40px auto;
+        width: 160px;
+        height: 40px;
     }
 `
 
