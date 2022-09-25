@@ -213,14 +213,16 @@ const Button = styled.div`
     border: 5px solid black;
     border-radius: 25px;
 
-    :hover {
-        background-color: blue;
-        transition-duration: 0.5s;
-    }
+    @media screen and (min-width:1200px) {
+        :hover {
+            background-color: blue;
+            transition-duration: 0.5s;
+        }
  
-    :not(:hover) {
-        background-color: rgb(27, 0, 255, 0.5);
-        transition-duration: 0.5s;
+        :not(:hover) {
+            background-color: rgb(27, 0, 255, 0.5);
+            transition-duration: 0.5s;
+        }
     }
 
     /* 나머지는 빅데스크탑 */
